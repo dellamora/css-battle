@@ -4,104 +4,41 @@
 
 ```HTML
 <style>
-  body {
-    background: #6592CF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  *{
+    position: absolute;
   }
-  .stem {
-    width: 20px;
-    height: 52px;
-    background: #060F55;
-    bottom: 0px;
-    position: absolute;
-      }
-  .base {
-    width: 140px;
-    height: 100px;
-    border-bottom-left-radius: 100px;
-     border-bottom-right-radius: 100px;
-    background: #060F55;
-    bottom: 50px;
-    position: absolute;
+  body{
+    background: #0B2429;
+    margin: 0;
+  }
+p[a] {
+    width: 120px;
+    height: 120px;
+  border-radius: 50%;
+   background: #F3AC3C;
+  left: 200px;
+  top: 14px;
+  }
+  p[b]{
+     width: 120px;
+    height: 120px;
+  border-radius: 50%;
+   background: #998235;
+  left: 140px;
+  top: 74px;
+    border-top-right-radius: 0px;
 
   }
-  .prong-1 {
-    width: 20px;
-    height: 110px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    background: #060F55;
-    left:130px;
-    bottom: 140px;
-    position: absolute;
+  p[c]{
+      width: 120px;
+    height: 120px;
+  border-radius: 50%;
+   background: #F3AC3C;
+  left: 80px;
+  top: 134px;
+    border-top-right-radius: 0px;
+
 
   }
-  .prong-2 {
-    width: 20px;
-    height: 110px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    background: #060F55;
-    left:170px;
-    bottom: 140px;
-    position: absolute;
-
-  }
-  .prong-3 {
-    width: 20px;
-    height: 110px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    background: #060F55;
-    left: 210px;
-    bottom: 140px;
-    position: absolute;
-  }
-   .prong-4 {    width: 20px;
-    height: 110px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    background: #060F55;
-    left:250px;
-    bottom: 140px;
-    position: absolute;  }
-  .inner-prong-1{
-     width: 20px;
-    height: 110px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    background: #6592CF;
-    left:150px;
-    bottom: 140px;
-    position: absolute;  }
-    .inner-prong-1{
-     width: 20px;
-    height: 110px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    background: #6592CF;
-    left:150px;
-    bottom: 140px;
-    position: absolute;  }
-    .inner-prong-2{
-     width: 20px;
-    height: 110px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    background: #6592CF;
-    left:190px;
-    bottom: 140px;
-    position: absolute;  }
-    .inner-prong-3{
-     width: 20px;
-    height: 110px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    background: #6592CF;
-    left:230px;
-    bottom: 140px;
-    position: absolute;  }
 </style>
 ```
