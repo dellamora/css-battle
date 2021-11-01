@@ -1,4 +1,4 @@
-# [Target #1 - Simple Square](https://cssbattle.dev/play/1)
+# [Target #5 - Birdie](https://cssbattle.dev/play/1)
 
 ![](https://cssbattle.dev/targets/1.png)
 
